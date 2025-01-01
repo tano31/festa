@@ -1,0 +1,434 @@
+/*/*===========================================Fuentes/*===========================================*/
+
+.lavishly-yours-regular {
+    font-family: "Lavishly Yours", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*
+.poppins-thin {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: italic;
+}*/
+
+/*===========================================Body/*===========================================*/
+
+body {
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: url('img/background-3.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+    position: relative;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.titulo {
+
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 700px;
+    font-size: 1.5rem;
+    font-family: "Delius Swash Caps", serif;
+
+
+}
+
+.data {
+    font-size: 1.8rem;
+    font-family: "Delius Swash Caps", serif;
+
+}
+
+.nomes {
+    font-family: "Delius Swash Caps", serif;
+}
+
+.language-switcher {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    position: fixed;
+}
+
+.language-switcher a {
+    text-decoration: none;
+    margin: 0 0.5rem;
+
+}
+
+.language-switcher img {
+    width: 24px;
+    height: auto;
+    vertical-align: middle;
+
+}
+
+section {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 800px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #206294;
+}
+
+.rsvp {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.rsvp .button {
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem;
+}
+
+.location iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 8px;
+}
+
+.gifts {
+    text-align: center;
+}
+
+.gift-options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Dos columnas por defecto */
+    gap: 20px;
+    /* Espaciado entre los divs */
+    padding: 20px;
+}
+
+/* Estilos para pantallas más grandes */
+@media (min-width: 1024px) {
+    .gift-options {
+        grid-template-columns: repeat(4, 1fr);
+        /* Cuatro columnas en pantallas grandes */
+    }
+}
+
+.gift-option {
+    text-align: center;
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gift-option img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.gift-option h3 {
+    margin-top: 0;
+    color: #206294;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    #gifts h2 {
+        font-size: 1.5em;
+    }
+
+    #gifts p {
+        font-size: 0.9em;
+    }
+
+    .gift-option {
+        max-width: 90%;
+        /* Reduce el ancho de las tarjetas en pantallas medianas */
+    }
+}
+
+@media (max-width: 480px) {
+    #gifts h2 {
+        font-size: 1.2em;
+    }
+
+    #gifts p {
+        font-size: 0.8em;
+    }
+
+    .gift-option {
+        max-width: 100%;
+        /* Ocupa todo el ancho disponible en pantallas pequeñas */
+    }
+
+    .button {
+        font-size: 0.8em;
+        /* Reduce el tamaño del botón */
+        padding: 8px 16px;
+    }
+}
+
+footer {
+    text-align: center;
+    margin: 2rem 0;
+    color: #666;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #206294;
+    color: white;
+    text-decoration: none;
+    border-radius: 18px;
+}
+
+.button:hover {
+    background-color: #18496e;
+}
+
+
+/* Contenedor que va a envolver el botón */
+.container-boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Estilos básicos para el botón */
+.boton {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #3498db;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    /* Animación para el cambio */
+}
+
+/* Estilos cuando el ratón está sobre el botón */
+.boton:hover {
+    background-color: #2ecc71;
+    /* Cambia el color de fondo */
+    border-color: #2ecc71;
+    /* Cambia el color del borde */
+    transform: scale(1.2);
+    /* Agranda el botón un 20% */
+}
+
+/* Efecto de zoom en la página cuando el ratón está sobre el botón */
+.boton:hover~.container-boton {
+    transform: scale(1.05);
+    /* Hace un zoom leve en la página */
+}
+
+.localizacao {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 800px;
+    align-items: center;
+
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 300px;
+    transform: rotate(-10deg);
+    /* Inclinación de la imagen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Sombra para realzar la imagen */
+    border-radius: 10px;
+    /* Opcional: bordes redondeados */
+}
+
+.text-container {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.text-container h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+.text-container p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* Por defecto, los elementos estarán uno encima del otro */
+    gap: 20px;
+    align-items: center;
+    /* Centra los elementos en móviles */
+}
+
+
+
+.text-container p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Estilos responsivos para escritorio */
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        /* En pantallas grandes, coloca los elementos uno al lado del otro */
+        justify-content: space-between;
+        /* Distribuye espacio entre los elementos */
+        align-items: center;
+        /* Alinea los elementos verticalmente */
+    }
+
+    .image-container {
+        flex: 1;
+        /* La imagen ocupará la mitad del ancho disponible */
+        text-align: right;
+        /* Opcional: alinea la imagen a la derecha */
+    }
+
+    .text-container {
+        flex: 1;
+        /* El texto ocupará la otra mitad */
+        text-align: left;
+        /* Alinea el texto a la izquierda */
+    }
+}
